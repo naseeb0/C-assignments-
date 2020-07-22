@@ -5,10 +5,10 @@ int main()
     const float PI = 3.14;  
           float r, h, Area;  
   
-    printf("Enter Radius and height \n");  
+    printf("Enter Radius and height \n");    /* Entering Inputs */
     scanf("%f%f", &r, &h);  
   
-    Area = (2 * PI * r * h) + (2 * PI * r * r);  
+    Area = (2 * PI * r * h) + (2 * PI * r * r);   
   
     printf("Area of Cylinder:  %f\n", Area);  
   
