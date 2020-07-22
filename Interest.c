@@ -13,7 +13,7 @@ int main()
     printf("Enter rate: ");
     scanf("%f", &rate);
 
-    SI = (principle * time * rate) / 100;  
+    SI = (principle * time * rate) / 100;    /* Calculating the Value with Formula */
 
     printf("Simple Interest = %f", SI);
 
