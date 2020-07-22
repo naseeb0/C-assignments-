@@ -8,7 +8,7 @@ int main()
     printf("Enter Radius and height \n");    /* Entering Inputs */
     scanf("%f%f", &r, &h);  
   
-    Area = (2 * PI * r * h) + (2 * PI * r * r);   
+    Area = (2 * PI * r * h) + (2 * PI * r * r);   /* Calculating Values*/
   
     printf("Area of Cylinder:  %f\n", Area);  
   
