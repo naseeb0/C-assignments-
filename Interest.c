@@ -2,7 +2,7 @@
 
 int main()
 {
-    float principle, time, rate, SI;
+    float principle, time, rate, SI;   /* Taking the datatypes */
 
     printf("Enter principle : ");
     scanf("%f", &principle);
@@ -13,7 +13,7 @@ int main()
     printf("Enter rate: ");
     scanf("%f", &rate);
 
-    SI = (principle * time * rate) / 100;
+    SI = (principle * time * rate) / 100;  
 
     printf("Simple Interest = %f", SI);
 
