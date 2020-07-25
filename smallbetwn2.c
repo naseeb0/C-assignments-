@@ -5,11 +5,11 @@ int main()
     int a, b, big;
     printf("Enter any two number: ");
     scanf("%d%d", &a, &b);
-    if(a>b)
-        big=a;
+    if(a<b)
+        small=a;
     else
-        big=b;
-    printf("\nBiggest of the two number is: %d", big);
+        small=b;
+    printf("\nSmallest of the two number is: %d", small);
     getch();
     return 0;
 }
