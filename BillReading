@@ -1,0 +1,24 @@
+//
+
+#include <stdio.h>
+int main()
+{
+    int Punit,unit,Cunit ,amount = 0 ;
+float totalamount;
+printf( "Enter previous unit ");
+scanf("%d",&Punit);
+printf("Enter current unit ");
+scanf("%d",&Cunit);
+unit =Cunit-Punit;
+if(unit<=50){
+    amount =200;}
+else if (unit<=150){
+    amount =200+(unit-50)*10;}
+else if (unit <=250){
+    amount =200+100*10+(unit-150)*12;}
+else if (unit> 250){
+    amount =200+100*10+100*12+(unit-250)*15;}
+totalamount =amount +0.20*amount;
+printf("totalamount to pay  :%f",totalamount );
+     return 0;
+}
