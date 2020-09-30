@@ -1,0 +1,47 @@
+//
+//  main.c
+//  Cprog
+//
+//  Created by Naseeb Dangi on 9/30/20.
+//  Copyright © 2020 Naseeb Dangi. All rights reserved.
+//
+
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char character;
+    
+    printf("Input any Character \n");
+    scanf("%c", &character);
+    char Cup = toupper(character);
+    if ((Cup >= 'a' && Cup <= 'z') || (Cup >= 'A' && Cup <= 'Z')) {
+          switch (Cup) {
+           case 'A':
+               printf("It is Vowel");
+               break;
+           case 'E':
+               printf("It is Vowel");
+               break;
+           case 'I':
+               printf("It is Vowel");
+               break;
+           case 'O':
+               printf("It is Vowel");
+               break;
+           case 'U':
+               printf("It is Vowel");
+               break;
+          
+           
+           default:
+               printf("It is Consonant");
+               break;
+          }}
+    else{
+        printf("Enter a Valid Character");
+    
+    
+    
+    return 0;
+    }}
